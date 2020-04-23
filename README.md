@@ -49,6 +49,8 @@ GET /visited_domains?from=1545221231&to=1545217638
 
 ## Инструкция по запуску
 * Установите зависимости: `pip install -r requirements.txt`
+* Запустите redis server
+* Настройте данные для подключения к redis-server в файле `Funbox/settings.py` 
 * Запустите сервер: `python manage.py runserver`
 
 
