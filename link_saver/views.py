@@ -1,3 +1,6 @@
-from django.shortcuts import render
+def clean_links(links_list) -> list:
+    pass
 
-# Create your views here.
+
+def remove_not_unique(links_list) -> list:
+    pass
