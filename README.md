@@ -54,5 +54,5 @@ GET /visited_domains?from=1545221231&to=1545217638
 
 ## Тестировние
 ###### Информация по тестированию: [![Build Status](https://travis-ci.com/Kaktysig/Funbox.svg?branch=master)](https://travis-ci.com/Kaktysig/Funbox)
-###### Информация по покрытию тестами: [![Coverage Status](https://coveralls.io/repos/github/Kaktysig/Funbox/badge.svg?branch=master)](https://coveralls.io/github/Kaktysig/Funbox?branch=master)
+###### Информация по покрытию тестами: [![Coverage Status](https://coveralls.io/repos/github/Kaktysig/Funbox/badge.svg)](https://coveralls.io/github/Kaktysig/Funbox)
 * Запустите команду: `pytest`
