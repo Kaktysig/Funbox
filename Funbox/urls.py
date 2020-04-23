@@ -14,6 +14,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
+from link_saver import views
 
 urlpatterns = [
+    path('visited_links', views.save_links),
+    path('visited_domains', views.print_links),
 ]

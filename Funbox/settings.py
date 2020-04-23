@@ -83,3 +83,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+REDIS_HOST = os.environ.get('REDIS_HOST', 'localhost')
+REDIS_POST = 6379
